@@ -12,7 +12,7 @@ public class BotMain {
 
     public static void main(String[] args) throws Exception{
         jda = new JDABuilder(AccountType.BOT)
-                .setToken("NjM3OTY1Njg3Njc5MDkwNzE4.XbWECQ.wBweW8ThmpO10UDucTYoPJAy4Os")
+                .setToken("NjM3OTY1Njg3Njc5MDkwNzE4.XeqxAQ.F3nZLPr8GlmyjyqskjXc-jjGXb0")
                 .build();
 
         jda.addEventListener(new HelloThere());
